@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+}
+.col-lg-6{
+    display: flex;
+    width: 50%;
+}
+
+@media (max-width:992px){
+    .row{
+        flex-flow: column;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}

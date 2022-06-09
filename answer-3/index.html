@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!-- # Soru 3
+# ======
+#
+# HTML ve CSS kullanarak aşağıdaki gibi bir UI geliştiriniz. Sayfanın ortasında, dikey ve yatay olarak ortalanmış.
+# Backend'den dinamik olarak gelen yazıları ortalayan bir container yaratınız. Responsive olmasına dikkat ediniz.
+# Mobil için sağ ve soldaki gridler alt alta gelmeli. İstediğiniz araçları kullanabilirsiniz.
+
+
+#window#################################################
+#                                                      #
+#                                                      #
+#        ######################################        #
+#        #                   #                #        #
+#        #    Lorem ipsum    #                #        #
+#        #       dolor       #                #        #
+#        #     sit amet.     #                #        #
+#        #    Lorem ipsum    #     Lorem      #        #
+#        #       dolor       #                #        #
+#        #     sit amet.     #                #        #
+#        #       End.        #                #        #
+#        #                   #                #        #
+#        ######################################        #
+#                                                      #
+#                                                      #
+######################################################## -->
+
+<html lang='tr'>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../answer-3/index.js"></script>
+
+    <title>Basic Responsive Container</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="../answer-3/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p id="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-12">
+                <p id="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
